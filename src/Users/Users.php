@@ -2,15 +2,34 @@
 
 namespace src\Users;
 
+use src\UUID;
+
 class Users
 {
     public function __construct(
-        private int $id,
+        private UUID $uuid,
+        private string $userLogin,
         private string $userName,
         private string $userSurname
     )
     {
 
+    }
+
+    /**
+     * @return UUID
+     */
+    public function getUuid(): UUID
+    {
+        return $this->uuid;
+    }
+
+    /**
+     * @return string
+     */
+    public function getUserLogin(): string
+    {
+        return $this->userLogin;
     }
 
     /**
