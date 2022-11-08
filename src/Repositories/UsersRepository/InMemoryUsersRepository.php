@@ -2,10 +2,11 @@
 
 namespace src\Repositories\UsersRepository;
 
+use src\Exceptions\UserNotFoundException;
 use src\Users\Users;
 use src\UUID;
 
-class InMemoryUsersRepository
+class InMemoryUsersRepository implements UsersRepositoryInterface
 {
     private array $users = [];
 

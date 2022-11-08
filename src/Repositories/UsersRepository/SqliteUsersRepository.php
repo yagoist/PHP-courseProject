@@ -2,11 +2,12 @@
 
 namespace src\Repositories\UsersRepository;
 
-use src\UUID;
-use src\Users\Users;
 use PDO;
+use src\Exceptions\UserNotFoundException;
+use src\Users\Users;
+use src\UUID;
 
-class SqliteUsersRepository
+class SqliteUsersRepository implements UsersRepositoryInterface
 {
     public function __construct(
         private PDO $connection

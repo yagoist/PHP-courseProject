@@ -13,7 +13,6 @@ class Users
         private string $userSurname
     )
     {
-
     }
 
     /**
@@ -30,14 +29,6 @@ class Users
     public function getUserLogin(): string
     {
         return $this->userLogin;
-    }
-
-    /**
-     * @return int
-     */
-    public function getId(): int
-    {
-        return $this->id;
     }
 
     /**

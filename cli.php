@@ -13,8 +13,8 @@ $connection = new PDO('sqlite:'.__DIR__.'/identifier.sqlite');
 
 $userRepository = new SqliteUsersRepository($connection);
 
-$userRepository->save(new Users(UUID::random(), 'MegaIvan', 'Ivan', 'Ivanov'));
-$userRepository->save(new Users(UUID::random(), 'TotalNikita', 'Nikita', 'VsyoPobrito'));
+$userRepository->save(new Users(UUID::random(), 'MegaIvan2', 'Ivan', 'Ivanov'));
+$userRepository->save(new Users(UUID::random(), 'TotalNikita2', 'Nikita', 'VsyoPobrito'));
 
 //try {
 //    $user = $userRepository->getUser(123);
