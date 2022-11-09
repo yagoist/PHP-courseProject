@@ -3,6 +3,7 @@
 namespace src;
 use src\Exceptions\AppException;
 
+
 class UUID
 {
     public function __construct(

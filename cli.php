@@ -2,6 +2,8 @@
 
 require_once __DIR__. '/vendor/autoload.php';
 
+use src\Repositories\SqliteArticlesRepository\SqliteArticlesRepository;
+use src\Repositories\SqliteCommentsRepository\SqliteCommentsRepository;
 use src\UUID;
 use src\Articles\Articles;
 use src\Comments\Comments;
@@ -10,37 +12,29 @@ use src\Repositories\UsersRepository\SqliteUsersRepository;
 
 
 $connection = new PDO('sqlite:'.__DIR__.'/identifier.sqlite');
+//$faker = new Faker\Factory::create();
+
 
 $userRepository = new SqliteUsersRepository($connection);
+$commentsRepository = new SqliteCommentsRepository($connection);
+$articleRepository = new SqliteArticlesRepository($connection);
 
-$userRepository->save(new Users(UUID::random(), 'MegaIvan2', 'Ivan', 'Ivanov'));
-$userRepository->save(new Users(UUID::random(), 'TotalNikita2', 'Nikita', 'VsyoPobrito'));
+//$userRepository->save(new Users(UUID::random(), 'MegaIvan2', 'Ivan', 'Ivanov'));
+//$userRepository->save(new Users(UUID::random(), 'TotalNikita2', 'Nikita', 'VsyoPobrito'));
 
-//try {
-//    $user = $userRepository->getUser(123);
-//    echo $user->getUserName();
-//} catch (UserNotFoundException $e) {
-//    echo $e->getMessage();
-//}
+$articleRepository->save(
+    new Articles(
+        UUID::random(),
+        new UUID('17c134f0-a916-4ac6-ab1b-5c5f660553cb'),
+        'header',
+        'some text'
+    ));
 
-//$faker = Faker\Factory::create();
-//
-//
-//if (isset($argv[1])) {
-//    switch ($argv[1]) {
-//        case 'user' :
-//            $user = new Users($faker->imei, $faker->firstName, $faker->lastName);
-//            var_dump($user).PHP_EOL;
-//            break;
-//        case 'post' :
-//            $post = new Articles($faker->imei, $faker->imei, $faker->paragraph, $faker->text);
-//            var_dump($post).PHP_EOL;
-//            break;
-//        case 'comment' :
-//            $comment = new Comments($faker->imei, $faker->imei, $faker->imei, $faker->text);
-//            var_dump($comment).PHP_EOL;
-//            break;
-//        default:
-//            echo 'неизвестная команда';
-//    }
-//}
+$commentsRepository->save(
+    new Comments(
+        UUID::random(),
+        new UUID('17c134f0-a916-4ac6-ab1b-5c5f660553cb'),
+        new UUID('2c1cdf50-cdd2-4036-a189-948a533a6f37'),
+        'somecomment'
+    ));
+

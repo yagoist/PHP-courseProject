@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f3b5ca6-7c91-44a8-be21-908cebe03837.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/620c7f67-e188-455e-8bdc-d8bc457b5b5b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/cli.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/UserNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/UserNotFoundException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Articles/Articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Articles/Articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comments/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UUID.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UUID.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,9 @@
       <workItem from="1667756136610" duration="2497000" />
       <workItem from="1667762116584" duration="168000" />
       <workItem from="1667838425744" duration="8821000" />
-      <workItem from="1667924327935" duration="755000" />
+      <workItem from="1667924327935" duration="4758000" />
+      <workItem from="1668016023774" duration="5264000" />
+      <workItem from="1668021754395" duration="1118000" />
     </task>
     <servers />
   </component>

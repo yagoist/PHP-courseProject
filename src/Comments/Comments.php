@@ -2,40 +2,41 @@
 
 namespace src\Comments;
 
-
+use src\UUID;
+use src\Users\Users;
+use src\Articles\Articles;
 
 class Comments
 {
     public function __construct(
-        private int $id,
-        private int $authorId,
-        private int $articlesId,
+        private UUID $uuid,
+        private UUID $authorId,
+        private UUID $articlesId,
         private string $text
     )
     {
-
     }
 
     /**
-     * @return int
+     * @return UUID
      */
-    public function getId(): int
+    public function getUuid(): UUID
     {
-        return $this->id;
+        return $this->uuid;
     }
 
     /**
-     * @return int
+     * @return UUID
      */
-    public function getAuthorId(): int
+    public function getAuthorId(): UUID
     {
         return $this->authorId;
     }
 
     /**
-     * @return int
+     * @return UUID
      */
-    public function getArticlesId(): int
+    public function getArticlesId(): UUID
     {
         return $this->articlesId;
     }
