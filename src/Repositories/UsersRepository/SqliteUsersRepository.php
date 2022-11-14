@@ -1,11 +1,12 @@
 <?php
 
-namespace src\Repositories\UsersRepository;
+namespace courseProject\src\Repositories\UsersRepository;
 
 use PDO;
-use src\Exceptions\UserNotFoundException;
-use src\Users\Users;
-use src\UUID;
+use courseProject\src\Exceptions\UserNotFoundException;
+use courseProject\src\Users\Users;
+use courseProject\src\UUID;
+use src\Exceptions\AppException;
 
 class SqliteUsersRepository implements UsersRepositoryInterface
 {
@@ -19,7 +20,11 @@ class SqliteUsersRepository implements UsersRepositoryInterface
     {
         $statement = $this->connection->prepare(
             'INSERT INTO users (uuid, login, user_name, user_surname)
-                    VALUES (:uuid, :login, :user_name, :user_surname)'
+                    VALUES (:uuid, :login, :user_name, :user_surname)
+                    ON CONFLICT (uuid) DO UPDATE SET
+                    login = :login,
+                    user_name = :user_name,
+                    user_surname = :user_surname'
         );
         $statement->execute([
             ':uuid' => (string)$user->getUuid(),
@@ -29,13 +34,18 @@ class SqliteUsersRepository implements UsersRepositoryInterface
 
         ]);
     }
+
+    /**
+     * @throws AppException
+     * @throws UserNotFoundException
+     */
     public function get(UUID $uuid): Users
     {
         $statement = $this->connection->prepare(
             'SELECT * FROM users WHERE uuid = ?'
         );
         $statement->execute([
-            ':uuid' => (string)$uuid
+            $uuid
         ]);
         $result = $statement->fetch(PDO::FETCH_ASSOC);
 

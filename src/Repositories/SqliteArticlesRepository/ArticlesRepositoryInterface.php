@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Repositories\SqliteArticlesRepository;
+namespace courseProject\src\Repositories\SqliteArticlesRepository;
 
-use src\Articles\Articles;
-use src\UUID;
+use courseProject\src\Articles\Articles;
+use courseProject\src\UUID;
 
 interface ArticlesRepositoryInterface
 {

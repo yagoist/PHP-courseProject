@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Repositories\SqliteCommentsRepository;
+namespace courseProject\src\Repositories\SqliteCommentsRepository;
 
-use src\Comments\Comments;
-use src\UUID;
+use courseProject\src\Comments\Comments;
+use courseProject\src\UUID;
 
 interface CommentsRepositoryInterface
 {

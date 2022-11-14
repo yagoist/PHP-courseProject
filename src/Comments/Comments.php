@@ -1,10 +1,10 @@
 <?php
 
-namespace src\Comments;
+namespace courseProject\src\Comments;
 
-use src\UUID;
-use src\Users\Users;
-use src\Articles\Articles;
+use courseProject\src\UUID;
+use courseProject\src\Users\Users;
+use courseProject\src\Articles\Articles;
 
 class Comments
 {

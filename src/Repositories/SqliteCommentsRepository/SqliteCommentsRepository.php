@@ -1,10 +1,11 @@
 <?php
 
-namespace src\Repositories\SqliteCommentsRepository;
+namespace courseProject\src\Repositories\SqliteCommentsRepository;
 
+use courseProject\src\UUID;
 use PDO;
-use src\Comments\Comments;
-use src\UUID;
+use courseProject\src\Comments\Comments;
+
 
 class SqliteCommentsRepository
 {
@@ -19,7 +20,9 @@ class SqliteCommentsRepository
     {
         $statement = $this->connection->prepare(
             'INSERT INTO comments (uuid, author_id, article_id, text)
-                    VALUES (:uuid, :author_id, :article_id, :text)'
+                    VALUES (:uuid, :author_id, :article_id, :text)
+                    ON CONFLICT (uuid) DO UPDATE SET
+                    text = :text'
         );
         $statement->execute([
             ':uuid' => $comment->getUuid(),
@@ -34,7 +37,7 @@ class SqliteCommentsRepository
             'SELECT * FROM comments WHERE uuid = ?'
         );
         $statement->execute([
-            ':uuid' => (string)$uuid
+            $uuid
         ]);
         $result = $statement->fetch(PDO::FETCH_ASSOC);
 

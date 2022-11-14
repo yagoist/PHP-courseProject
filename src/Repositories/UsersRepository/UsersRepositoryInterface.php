@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Repositories\UsersRepository;
+namespace courseProject\src\Repositories\UsersRepository;
 
-use src\Users\Users;
-use src\UUID;
+use courseProject\src\Users\Users;
+use courseProject\src\UUID;
 
 interface UsersRepositoryInterface
 {

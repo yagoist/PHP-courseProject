@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace courseProject\src;
 use src\Exceptions\AppException;
 
 

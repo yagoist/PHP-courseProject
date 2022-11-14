@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Users;
+namespace courseProject\src\Users;
 
-use src\UUID;
+use courseProject\src\UUID;
 
 class Users
 {
