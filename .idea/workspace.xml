@@ -5,24 +5,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/courseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T203941.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T203941.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T204251.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T204251.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142438.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142438.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142700.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142700.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142713.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142713.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142740.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142740.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143119.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143119.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143305.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143305.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143521.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143521.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143649.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143649.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145250.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145250.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145307.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145307.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145341.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145341.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145428.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145428.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145444.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145444.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145641.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145641.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145715.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145715.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150832.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150832.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150902.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150902.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150935.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150935.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151139.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151139.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151349.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151349.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155329.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155329.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155548.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155548.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204049.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204049.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204150.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204150.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204511.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204511.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204554.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204554.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204721.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204721.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223334.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223334.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223815.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223815.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223833.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223833.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223916.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223916.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T224724.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T224724.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/blog.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/cli.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseProject.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/courseProject.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/Articles.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/Articles.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/Arguments.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/Arguments.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/CreateUserCommand.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/CreateUserCommand.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/Comments.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/Comments.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/AppException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/AppException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/ArgumentException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/ArgumentException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/CommandException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/CommandException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/UserNotFoundException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/UserNotFoundException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/InMemoryUsersRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/InMemoryUsersRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/SqliteUsersRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/SqliteUsersRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/UsersRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/UsersRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/UUID.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/UUID.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/Users.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/Users.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/nv.d3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/nv.d3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/octicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/octicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_icons/file-code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_icons/file-code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_icons/file-directory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_icons/file-directory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/nv.d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/nv.d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/http.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlite.php" beforeDir="false" afterPath="$PROJECT_DIR$/sqlite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Articles/Articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Articles/Articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Arguments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Arguments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comments/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments/Comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exceptions/AppException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/AppException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/CommandException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/CommandException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HttpException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exceptions/UserNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/UserNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Actions/ActionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/ActionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Users/FindByUserLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Users/FindByUserLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/ErrorResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/ErrorResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/SuccessfulResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/SuccessfulResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/UsersRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/UsersRepositoryInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UUID.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UUID.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/HelloTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HelloTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/UnitTests/Commands/Arguments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/UnitTests/Commands/ArgumentsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/ArgumentsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/HelloTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HelloTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Commands/ArgumentsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/ArgumentsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +330,10 @@
       <workItem from="1671827790701" duration="61000" />
       <workItem from="1671827908948" duration="1707000" />
       <workItem from="1671891117588" duration="159000" />
+      <workItem from="1671985575760" duration="209000" />
+      <workItem from="1671988836438" duration="263000" />
+      <workItem from="1671990095604" duration="65000" />
+      <workItem from="1671990368944" duration="3933000" />
     </task>
     <servers />
   </component>

@@ -64,8 +64,6 @@ if (!array_key_exists($path, $routes[$method])) {
     return;
 }
 
-    new Users();
-
 $action = $routes[$method][$path];
 
 try {

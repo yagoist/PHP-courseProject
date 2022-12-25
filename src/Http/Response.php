@@ -2,14 +2,13 @@
 
 namespace courseProject\src\Http;
 
-use JsonException;
 
 abstract class Response
 {
     protected const SUCCESS = true;
 
     /**
-     * @throws JsonException
+     * @throws /JsonException
      */
     public function send(): void
     {
@@ -20,5 +19,8 @@ abstract class Response
         echo json_encode($data, JSON_THROW_ON_ERROR);
     }
 
+    /**
+     * @return array
+     */
     abstract protected function payload(): array;
 }
