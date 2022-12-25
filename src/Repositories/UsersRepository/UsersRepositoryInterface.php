@@ -11,4 +11,6 @@ interface UsersRepositoryInterface
 
     public function get(UUID $uuid): Users;
 
+    public function getByUserLogin(string $userLogin): Users;
+
 }
