@@ -9,7 +9,7 @@ use courseProject\src\Comments\Comments;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
 
-class SqliteArticlesRepository
+class SqliteArticlesRepository implements ArticlesRepositoryInterface
 {
 
     public function __construct(

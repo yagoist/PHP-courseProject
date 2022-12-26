@@ -3,6 +3,7 @@
 namespace courseProject\src\Http;
 
 use courseProject\src\Exceptions\HttpException;
+use courseProject\src\Exceptions\JsonException;
 
 class Request
 {
@@ -14,6 +15,10 @@ class Request
     {
     }
 
+    /**
+     * @return string
+     * @throws HttpException
+     */
     public function method(): string
     {
         if(!array_key_exists('REQUEST_METHOD', $this->server)) {
@@ -23,6 +28,11 @@ class Request
         return $this->server['REQUEST_METHOD'];
     }
 
+    /**
+     * @return array
+     * @throws HttpException
+     * @throws \JsonException
+     */
     public function jsonBody(): array
     {
         try {
@@ -32,11 +42,21 @@ class Request
                 flags: JSON_THROW_ON_ERROR
             );
         } catch (JsonException) {
+            throw new HttpException("Cannot decode json body");
+        }
+
+        if (!is_array($data)) {
             throw new HttpException("Not an array/object in json body");
         }
         return $data;
     }
 
+    /**
+     * @param string $field
+     * @return mixed
+     * @throws HttpException
+     * @throws \JsonException
+     */
     public function jsonBodyField(string $field): mixed
     {
         $data = $this->jsonBody();

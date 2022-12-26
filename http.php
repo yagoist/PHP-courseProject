@@ -1,10 +1,14 @@
 <?php
 
+use courseProject\src\Http\Actions\Articles\CreateArticle;
+use courseProject\src\Http\Actions\Comments\CreateComment;
+use courseProject\src\Http\Actions\Users\CreateUser;
 use courseProject\src\Http\Actions\Users\FindByUserLogin;
 use courseProject\src\Http\ErrorResponse;
 use courseProject\src\Http\Request;
-use courseProject\src\Http\SuccessfulResponse;
 use courseProject\src\Exceptions\HttpException;
+use courseProject\src\Repositories\SqliteArticlesRepository\SqliteArticlesRepository;
+use courseProject\src\Repositories\SqliteCommentsRepository\SqliteCommentsRepository;
 use courseProject\src\Repositories\UsersRepository\SqliteUsersRepository;
 
 require_once __DIR__.'/vendor/autoload.php';
@@ -15,6 +19,7 @@ $request = new Request(
     file_get_contents('php://input')
 );
 
+
 try {
     $path = $request->path();
 } catch (HttpException) {
@@ -24,8 +29,8 @@ try {
 
 try {
     $method = $request->method();
-} catch (HttpExeception) {
-    (new ErrorResponse)->send();
+} catch (HttpException) {
+    (new ErrorResponse())->send();
     return;
 }
 
@@ -33,22 +38,38 @@ $routes = [
     'GET' => [
         '/users/show' => new FindByUserLogin(
             new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/blog.sqlite')
-        )
-    ),
+                new PDO('sqlite:'.__DIR__.'courseProject.sqlite')
+            )
+        ),
 //    '/posts/show' => new FindByUuid(
 //        new SqliteUsersRepository(
-//    new PDO('sqlite:'.__DIR__.'/blog.sqlite')
+//    new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
 //        )
 //    ),
 ],
     'POST' => [
-        '/posts/create' => new CreatePost(
-            new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/blog.sqlite')
+        '/posts/create' => new CreateArticle(
+            new SqliteArticlesRepository(
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
         ),
             new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/blog.sqlite')
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
+            )
+        ),
+        '/users/create' => new CreateUser(
+            new SqliteUsersRepository(
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
+            )
+        ),
+        '/comments/create' => new CreateComment(
+            new SqliteArticlesRepository(
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
+            ),
+            new SqliteUsersRepository(
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
+            ),
+            new SqliteCommentsRepository(
+                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
             )
         ),
     ]
@@ -64,14 +85,13 @@ if (!array_key_exists($path, $routes[$method])) {
     return;
 }
 
-    new Users();
 
 $action = $routes[$method][$path];
 
 try {
     $response = $action->handle($request);
-} catch (AppException $e) {
+    $response->send();
+} catch (Exception $e) {
     (new ErrorResponse ($e->getMessage()))->send();
 }
 
-$response->send();

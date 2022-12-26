@@ -70,10 +70,10 @@ class SqliteUsersRepository implements UsersRepositoryInterface
     public function getByUserLogin(string $userLogin): Users
     {
         $statement = $this->connection->prepare(
-            'SELECT * FROM users WHERE login = :login'
+            'SELECT * FROM users WHERE login = ?'
         );
         $statement->execute([
-            ':login' => $userLogin
+            $userLogin
         ]);
 
         return $this->getUser($statement, $userLogin);
