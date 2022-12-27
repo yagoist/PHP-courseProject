@@ -3,6 +3,15 @@ Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
+<> 2022-12-26T214815.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
 <> 2022-12-26T204030.200.json
 
 ###
@@ -464,13 +473,6 @@ GET http://127.0.0.1:8000/some/path?some_parameter=123
 Some_header: Some Value
 
 <> 2022-12-05T204049.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-03T155548.200.json
 
 ###
 

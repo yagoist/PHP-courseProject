@@ -1,6 +1,7 @@
 <?php
 
 use courseProject\src\Http\Actions\Articles\CreateArticle;
+use courseProject\src\Http\Actions\Articles\FindByUuid;
 use courseProject\src\Http\Actions\Comments\CreateComment;
 use courseProject\src\Http\Actions\Users\CreateUser;
 use courseProject\src\Http\Actions\Users\FindByUserLogin;
@@ -11,7 +12,9 @@ use courseProject\src\Repositories\SqliteArticlesRepository\SqliteArticlesReposi
 use courseProject\src\Repositories\SqliteCommentsRepository\SqliteCommentsRepository;
 use courseProject\src\Repositories\UsersRepository\SqliteUsersRepository;
 
-require_once __DIR__.'/vendor/autoload.php';
+//require_once __DIR__.'/vendor/autoload.php';
+
+$container = require __DIR__.'/bootstrap.php';
 
 $request = new Request(
     $_GET,
@@ -36,57 +39,29 @@ try {
 
 $routes = [
     'GET' => [
-        '/users/show' => new FindByUserLogin(
-            new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'courseProject.sqlite')
-            )
-        ),
-//    '/posts/show' => new FindByUuid(
-//        new SqliteUsersRepository(
-//    new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-//        )
-//    ),
+        '/users/show' => FindByUserLogin::class,
+        '/posts/show' => FindByUuid::class
 ],
     'POST' => [
-        '/posts/create' => new CreateArticle(
-            new SqliteArticlesRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-        ),
-            new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-            )
-        ),
-        '/users/create' => new CreateUser(
-            new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-            )
-        ),
-        '/comments/create' => new CreateComment(
-            new SqliteArticlesRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-            ),
-            new SqliteUsersRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-            ),
-            new SqliteCommentsRepository(
-                new PDO('sqlite:'.__DIR__.'/identifier.sqlite')
-            )
-        ),
+        '/posts/create' => CreateArticle::class,
+        '/users/create' => CreateUser::class,
+        '/comments/create' => CreateComment::class
     ]
 ];
 
 if (!array_key_exists($path, $routes)) {
-    (new ErrorResponse('Not found'))->send();
+    (new ErrorResponse("Route not found: $method $path"))->send();
     return;
 }
 
 if (!array_key_exists($path, $routes[$method])) {
-    (new ErrorResponse('Not found'))->send();
+    (new ErrorResponse("Route not found: $method $path"))->send();
     return;
 }
 
+$actionClassName = $routes[$method][$path];
 
-$action = $routes[$method][$path];
+$action = $container->get($actionClassName);
 
 try {
     $response = $action->handle($request);

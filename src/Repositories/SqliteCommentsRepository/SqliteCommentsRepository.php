@@ -7,7 +7,7 @@ use PDO;
 use courseProject\src\Comments\Comments;
 
 
-class SqliteCommentsRepository implements \courseProject\src\Repositories\SqliteCommentsRepository\CommentsRepositoryInterface
+class SqliteCommentsRepository implements CommentsRepositoryInterface
 {
     public function __construct(
         private PDO $connection

@@ -22,7 +22,7 @@ class FindByUserLoginActionTest extends TestCase
      */
     public function testItReturnsErrorResponseIfNoUserLoginProvided(): void
     {
-        $request = new Request([], []);
+        $request = new Request([], [], '');
         $usersRepository = $this->usersRepository([]);
         $action = new FindByUserLogin($usersRepository);
         $response = $action->handle($request);

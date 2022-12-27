@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="" />
+    <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/courseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155548.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/cli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Arguments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Arguments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +219,8 @@
       <workItem from="1671891117588" duration="159000" />
       <workItem from="1671985575760" duration="209000" />
       <workItem from="1672063277536" duration="5821000" />
-      <workItem from="1672069831466" duration="5638000" />
+      <workItem from="1672069831466" duration="14040000" />
+      <workItem from="1672155299981" duration="5534000" />
     </task>
     <servers />
   </component>

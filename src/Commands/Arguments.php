@@ -22,6 +22,10 @@ final class Arguments
         }
     }
 
+    /**
+     * @param array $argv
+     * @return $this
+     */
     public function fromArgv(array $argv): self
     {
         $arguments = [];

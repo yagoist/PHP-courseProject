@@ -2,10 +2,11 @@
 
 namespace courseProject\src\Repositories\UsersRepository;
 
-use Couchbase\User;
+
 use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\Users\Users;
-//use courseProject\src\UUID;
+use courseProject\src\UUID;
+
 
 class InMemoryUsersRepository implements UsersRepositoryInterface
 {
@@ -16,8 +17,9 @@ class InMemoryUsersRepository implements UsersRepositoryInterface
         $this->users[] = $user;
     }
 
+
     /**
-     * @param int $id
+     * @param UUID $uuid
      * @return Users
      * @throws UserNotFoundException
      */
@@ -25,7 +27,7 @@ class InMemoryUsersRepository implements UsersRepositoryInterface
     {
         foreach ($this->users as $user)
         {
-            if((string)$user->getUuid() === (string)$uuid)
+            if($user->id() === $uuid)
             {
                 return $user;
             }
@@ -35,6 +37,6 @@ class InMemoryUsersRepository implements UsersRepositoryInterface
 
     public function getByUserLogin(string $userLogin): Users
     {
-        return new Users();
+
     }
 }
