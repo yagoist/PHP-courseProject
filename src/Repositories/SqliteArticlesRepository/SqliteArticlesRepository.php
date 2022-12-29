@@ -8,15 +8,16 @@ use courseProject\src\Articles\Articles;
 use courseProject\src\Comments\Comments;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
+use Psr\Log\LoggerInterface;
 
 class SqliteArticlesRepository implements ArticlesRepositoryInterface
 {
 
     public function __construct(
-        private PDO $connection
+        private PDO $connection,
+        private LoggerInterface $logger
     )
     {
-
     }
 
     public function save(Articles $articles): void
@@ -35,6 +36,8 @@ class SqliteArticlesRepository implements ArticlesRepositoryInterface
             ':text' => $articles->getText(),
 
         ]);
+
+        $this->logger->info("Post recorded in SQL: {$articles->getUuid()}");
     }
     public function get(UUID $uuid): Articles
     {
@@ -61,5 +64,7 @@ class SqliteArticlesRepository implements ArticlesRepositoryInterface
             $result['header'],
             $result['text']
         );
+
+        $this->logger->warning("Post get from SQL: $uuid");
     }
 }

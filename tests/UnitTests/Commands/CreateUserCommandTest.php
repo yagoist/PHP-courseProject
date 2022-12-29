@@ -1,6 +1,6 @@
 <?php
 
-namespace UnitTests\Commands;
+namespace courseProject\tests\UnitTests\Commands;
 
 use courseProject\src\Commands\Arguments;
 use courseProject\src\Commands\CreateUserCommand;
@@ -11,6 +11,7 @@ use courseProject\src\Repositories\UsersRepository\DummyUsersRepository;
 use courseProject\src\Repositories\UsersRepository\UsersRepositoryInterface;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
+use courseProject\tests\UnitTests\DummyLogger;
 use PHPUnit\Framework\TestCase;
 
 class CreateUserCommandTest extends TestCase
@@ -19,7 +20,7 @@ class CreateUserCommandTest extends TestCase
     public function testItThrowAnExceptionWhenUserAlreadyExists(): void
     {
         $command = new CreateUserCommand(
-            new DummyUsersRepository()
+            new DummyUsersRepository(), new DummyLogger()
         );
 
         $this->expectException(CommandException::class);
@@ -48,7 +49,7 @@ class CreateUserCommandTest extends TestCase
             }
         };
 
-        $command = new CreateUserCommand($usersRepository);
+        $command = new CreateUserCommand($usersRepository, new DummyLogger());
         $this->expectException(ArgumentException::class);
         $this->expectExceptionMessage('No such argument: user_name');
 
@@ -77,7 +78,7 @@ class CreateUserCommandTest extends TestCase
 
     public function testItRequiresUserSurname(): void
     {
-        $command = new CreateUserCommand($this->makeUsersRepository());
+        $command = new CreateUserCommand($this->makeUsersRepository(), new DummyLogger());
         $this->expectException(ArgumentException::class);
         $this->expectExceptionMessage('No such argument: user_surname');
 
@@ -89,7 +90,7 @@ class CreateUserCommandTest extends TestCase
 
     public function testItRequiresUserName(): void
     {
-        $command = new CreateUserCommand($this->makeUsersRepository());
+        $command = new CreateUserCommand($this->makeUsersRepository(), new DummyLogger());
         $this->expectException(ArgumentException::class);
         $this->expectExceptionMessage('No such argument: user_name');
 
@@ -123,7 +124,7 @@ class CreateUserCommandTest extends TestCase
             }
         };
 
-        $command = new CreateUserCommand($usersRepository);
+        $command = new CreateUserCommand($usersRepository, new DummyLogger());
         $command->handle(new Arguments([
             'login' => 'batman',
             'user_name' => 'simon',

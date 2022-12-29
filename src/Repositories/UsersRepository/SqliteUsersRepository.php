@@ -8,11 +8,13 @@ use courseProject\src\Users\Users;
 use courseProject\src\UUID;
 use PDOStatement;
 use courseProject\src\Exceptions\AppException;
+use Psr\Log\LoggerInterface;
 
 class SqliteUsersRepository implements UsersRepositoryInterface
 {
     public function __construct(
-        private PDO $connection
+        private PDO $connection,
+        private LoggerInterface $logger
     )
     {
 
@@ -34,6 +36,8 @@ class SqliteUsersRepository implements UsersRepositoryInterface
             ':user_surname' => $user->getUserSurname(),
 
         ]);
+
+        $this->logger->info("User recorded in SQL: {$user->getUuid()}");
     }
 
     /**
@@ -62,6 +66,8 @@ class SqliteUsersRepository implements UsersRepositoryInterface
             $result['user_name'],
             $result['user_surname']
         );
+
+        $this->logger->warning("User get from SQL: $uuid");
     }
 
     /**

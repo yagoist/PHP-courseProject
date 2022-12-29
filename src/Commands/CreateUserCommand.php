@@ -8,12 +8,14 @@ use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\Repositories\UsersRepository\UsersRepositoryInterface;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
+use Psr\Log\LoggerInterface;
 
 
 class CreateUserCommand
 {
     public function __construct(
-        private UsersRepositoryInterface $usersRepository
+        private UsersRepositoryInterface $usersRepository,
+        private LoggerInterface $logger
     )
     {
     }
@@ -25,21 +27,26 @@ class CreateUserCommand
     public function handle(Arguments $arguments): void
     {
 //        $input = $this->parseRawInput($rawInput);
+        $this->logger->info("Create user comand started");
         $userLogin = $arguments->get('login');
 
         if ($this->userExist($userLogin))
         {
-            throw new CommandException("User already exist: $userLogin");
+            $this->logger->warning("User already exist: $userLogin");
+            return;
         }
+
+        $uuid = UUID::random();
 
         $this->usersRepository->save(
             new Users(
-                UUID::random(),
+                $uuid,
                 $userLogin,
                 $arguments->get('user_name'),
                 $arguments->get('user_surname')
             )
         );
+        $this->logger->info("User created: $uuid");
     }
 
 //    /**

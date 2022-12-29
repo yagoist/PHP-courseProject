@@ -1,4 +1,181 @@
 GET http://127.0.0.1:8000/users/show?login=ivan
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Cookie: XDEBUG_SESSION=15613
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-29T185805.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-29T184725.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T184647.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T184450.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T184414.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T184334.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T183959.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-29T183553.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-28T214356.200.json
+
+###
+
+GET http://127.0.0.1:8000/users/show
+Content-Type: application/json
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "ivan"
+}
+
+<> 2022-12-28T214250.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-28T214052.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-28T214005.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-28T213810.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-28T213751.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
@@ -381,98 +558,6 @@ GET http://127.0.0.1:8000/users/show?login=ivan
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8010/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T224724.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T223916.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T223833.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T223815.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T223334.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T204721.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T204554.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T204511.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T204150.200.json
-
-###
-
-GET http://127.0.0.1:8000/some/path?some_parameter=123
-Some_header: Some Value
-
-<> 2022-12-05T204049.200.json
 
 ###
 

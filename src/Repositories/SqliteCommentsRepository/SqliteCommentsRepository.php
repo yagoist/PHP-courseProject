@@ -2,15 +2,18 @@
 
 namespace courseProject\src\Repositories\SqliteCommentsRepository;
 
+use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\UUID;
 use PDO;
 use courseProject\src\Comments\Comments;
+use Psr\Log\LoggerInterface;
 
 
 class SqliteCommentsRepository implements CommentsRepositoryInterface
 {
     public function __construct(
-        private PDO $connection
+        private PDO $connection,
+        private LoggerInterface $logger
     )
     {
 
@@ -30,6 +33,7 @@ class SqliteCommentsRepository implements CommentsRepositoryInterface
             ':article_id' => $comment->getArticlesId(),
             ':text' => $comment->getText(),
         ]);
+        $this->logger->info("Comment recorded in SQL: {$comment->getUuid()}");
     }
     public function get(UUID $uuid): Comments
     {
@@ -53,5 +57,7 @@ class SqliteCommentsRepository implements CommentsRepositoryInterface
             new UUID($result['articles_id']),
             $result['text']
         );
+
+        $this->logger->warning("Comment get from SQL: $uuid");
     }
 }

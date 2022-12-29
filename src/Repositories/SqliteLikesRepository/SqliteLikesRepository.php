@@ -4,6 +4,7 @@ namespace courseProject\src\Repositories\SqliteLikesRepository;
 
 use courseProject\src\Articles\Articles;
 use courseProject\src\Comments\Comments;
+use courseProject\src\Exceptions\AppException;
 use courseProject\src\Exceptions\LikesNotFoundException;
 use courseProject\src\Likes\Like;
 use courseProject\src\UUID;
@@ -31,7 +32,7 @@ class SqliteLikesRepository implements LikesRepositoryInterface
             ':user_uuid' => $like->getAuthorId(),
         ]);
     }
-    public function getByArticleUuid(UUID $uuid): Like
+    public function get(UUID $uuid): Like
     {
         $statement = $this->connection->prepare(
             'SELECT * FROM likes WHERE uuid = ?'
@@ -54,6 +55,12 @@ class SqliteLikesRepository implements LikesRepositoryInterface
         );
     }
 
+    /**
+     * @param UUID $uuid
+     * @return Articles
+     * @throws LikesNotFoundException
+     * @throws AppException
+     */
     public function getByArticleUuid(UUID $uuid): Articles
     {
         $statement = $this->connection->prepare(
