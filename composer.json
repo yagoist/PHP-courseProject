@@ -1,0 +1,19 @@
+{
+    "name": "yaubuntuphp/course-project",
+    "description": "course project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yagoist",
+            "email": "yagogo83@gmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20"
+    }
+}
