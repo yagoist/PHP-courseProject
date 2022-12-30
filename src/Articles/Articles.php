@@ -3,11 +3,13 @@
 namespace src\Articles;
 
 
+use src\UUID;
+
 class Articles
 {
     public function __construct(
-        private int $id,
-        private int $authorId,
+        private UUID $uuid,
+        private UUID $authorId,
         private string $header,
         private string $text
     )
@@ -16,17 +18,17 @@ class Articles
     }
 
     /**
-     * @return int
+     * @return UUID
      */
-    public function getId(): int
+    public function getUuid(): UUID
     {
-        return $this->id;
+        return $this->uuid;
     }
 
     /**
-     * @return int
+     * @return UUID
      */
-    public function getAuthorId(): int
+    public function getAuthorId(): UUID
     {
         return $this->authorId;
     }
