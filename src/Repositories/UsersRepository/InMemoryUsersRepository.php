@@ -1,10 +1,11 @@
 <?php
 
-namespace src\Repositories\UsersRepository;
+namespace courseProject\src\Repositories\UsersRepository;
 
-use src\Exceptions\UserNotFoundException;
-use src\Users\Users;
-use src\UUID;
+use Couchbase\User;
+use courseProject\src\Exceptions\UserNotFoundException;
+use courseProject\src\Users\Users;
+//use courseProject\src\UUID;
 
 class InMemoryUsersRepository implements UsersRepositoryInterface
 {
@@ -32,4 +33,8 @@ class InMemoryUsersRepository implements UsersRepositoryInterface
         throw new UserNotFoundException("User not found: $uuid");
     }
 
+    public function getByUserLogin(string $userLogin): Users
+    {
+        return new Users();
+    }
 }

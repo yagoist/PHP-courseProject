@@ -5,15 +5,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/courseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T203941.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T203941.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T204251.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-11-27T204251.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142438.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142438.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142700.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142700.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142713.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142713.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142740.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T142740.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143119.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143119.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143305.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143305.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143521.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143521.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143649.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T143649.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145250.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145250.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145307.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145307.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145341.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145341.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145428.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145428.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145444.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145444.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145641.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145641.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145715.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T145715.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150832.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150832.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150902.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150902.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150935.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T150935.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151139.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151139.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151349.200.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T151349.200.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155329.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155329.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155548.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-03T155548.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204049.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204049.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204150.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204150.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204511.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204511.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204554.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204554.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204721.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T204721.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223334.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223334.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223815.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223815.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223833.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223833.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223916.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T223916.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T224724.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2022-12-05T224724.200.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/blog.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/cli.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseProject.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/courseProject.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/Articles.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/Articles.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/Arguments.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/Arguments.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/CreateUserCommand.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/CreateUserCommand.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Commands/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Commands/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/Comments.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/Comments.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/AppException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/AppException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/ArgumentException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/ArgumentException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/CommandException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/CommandException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/UserNotFoundException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/UserNotFoundException.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Exceptions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Exceptions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteArticlesRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/SqliteCommentsRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/InMemoryUsersRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/InMemoryUsersRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/SqliteUsersRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/SqliteUsersRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/UsersRepositoryInterface.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/UsersRepositoryInterface.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/UsersRepository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Repositories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/UUID.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/UUID.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/Users.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/Users.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/Users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/Users/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/nv.d3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/nv.d3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/octicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/octicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_icons/file-code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_icons/file-code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_icons/file-directory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_icons/file-directory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/nv.d3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/nv.d3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/_js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/_js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage_report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage_report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlite.php" beforeDir="false" afterPath="$PROJECT_DIR$/sqlite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Articles/Articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Articles/Articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Arguments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Arguments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comments/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comments/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/AppException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/AppException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/ArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/ArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/CommandException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/CommandException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/UserNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/UserNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Actions/ActionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/ActionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Users/FindByUserLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Users/FindByUserLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/ErrorResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/ErrorResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/SuccessfulResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/SuccessfulResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/CommentsRepositoryInterface.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteCommentsRepository/SqliteCommentsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/InMemoryUsersRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/UsersRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/UsersRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UUID.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UUID.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Users/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/HelloTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HelloTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Commands/ArgumentsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/ArgumentsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +151,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +161,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="f57f57da-9373-4f63-aaba-eb0209b5f7ef" name="Unnamed" port="8000" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/yaubuntuphp/php/courseProject" />
+        </path_mappings>
+      </server>
+      <server host="127.0.0.1" id="4c286091-0111-4b4d-ad84-95c257df3854" name="127.0.0.1" port="8010" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
@@ -65,7 +207,11 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2H5Vs91vV274y6VQQQFaAEDUUzj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,13 +226,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yaubuntuphp/php/courseProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -101,16 +249,12 @@
       <recent name="$PROJECT_DIR$/tests/Commands" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ArgumentsTest.testItReturnsArgumentsValueByName" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UnitTests\Commands\ArgumentsTest" file="$PROJECT_DIR$/src/tests/UnitTests/Commands/ArgumentsTest.php" method="testItReturnsArgumentsValueByName" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHPUnit.ArgumentsTest.testItReturnsArgumentsValueByName" />
-      </list>
-    </recent_temporary>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,6 +276,64 @@
       <workItem from="1668254841131" duration="9103000" />
       <workItem from="1668267946407" duration="1449000" />
       <workItem from="1668354916846" duration="4648000" />
+      <workItem from="1668444587284" duration="9424000" />
+      <workItem from="1668958774404" duration="614000" />
+      <workItem from="1669459443134" duration="8151000" />
+      <workItem from="1669484638106" duration="5069000" />
+      <workItem from="1669542514317" duration="21259000" />
+      <workItem from="1669739318395" duration="1242000" />
+      <workItem from="1670066123073" duration="10590000" />
+      <workItem from="1670077496692" duration="1192000" />
+      <workItem from="1670261603369" duration="3055000" />
+      <workItem from="1670269245666" duration="542000" />
+      <workItem from="1670767230509" duration="7079000" />
+      <workItem from="1670787091516" duration="355000" />
+      <workItem from="1670866172436" duration="1371000" />
+      <workItem from="1670867633004" duration="187000" />
+      <workItem from="1670867904614" duration="1118000" />
+      <workItem from="1670871671709" duration="250000" />
+      <workItem from="1670872101634" duration="229000" />
+      <workItem from="1670872709971" duration="56000" />
+      <workItem from="1670873033225" duration="317000" />
+      <workItem from="1670873511194" duration="718000" />
+      <workItem from="1670874251177" duration="1336000" />
+      <workItem from="1671793251776" duration="893000" />
+      <workItem from="1671794566342" duration="719000" />
+      <workItem from="1671795661379" duration="187000" />
+      <workItem from="1671795861850" duration="290000" />
+      <workItem from="1671796166593" duration="74000" />
+      <workItem from="1671796330355" duration="180000" />
+      <workItem from="1671796591722" duration="503000" />
+      <workItem from="1671797113552" duration="5796000" />
+      <workItem from="1671809129047" duration="450000" />
+      <workItem from="1671809590743" duration="195000" />
+      <workItem from="1671809865980" duration="545000" />
+      <workItem from="1671810426582" duration="1258000" />
+      <workItem from="1671812191806" duration="1509000" />
+      <workItem from="1671813977504" duration="59000" />
+      <workItem from="1671814114201" duration="1377000" />
+      <workItem from="1671815685389" duration="1264000" />
+      <workItem from="1671817042898" duration="68000" />
+      <workItem from="1671817229508" duration="1718000" />
+      <workItem from="1671819737142" duration="546000" />
+      <workItem from="1671820347595" duration="419000" />
+      <workItem from="1671820795430" duration="266000" />
+      <workItem from="1671821339884" duration="204000" />
+      <workItem from="1671821625709" duration="363000" />
+      <workItem from="1671822820135" duration="193000" />
+      <workItem from="1671824713442" duration="67000" />
+      <workItem from="1671825748909" duration="109000" />
+      <workItem from="1671825870262" duration="167000" />
+      <workItem from="1671826582708" duration="32000" />
+      <workItem from="1671826773324" duration="194000" />
+      <workItem from="1671826984641" duration="450000" />
+      <workItem from="1671827790701" duration="61000" />
+      <workItem from="1671827908948" duration="1707000" />
+      <workItem from="1671891117588" duration="159000" />
+      <workItem from="1671985575760" duration="209000" />
+      <workItem from="1671988836438" duration="263000" />
+      <workItem from="1671990095604" duration="65000" />
+      <workItem from="1671990368944" duration="3933000" />
     </task>
     <servers />
   </component>

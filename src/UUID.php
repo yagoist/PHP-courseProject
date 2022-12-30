@@ -1,7 +1,7 @@
 <?php
 
 namespace courseProject\src;
-use src\Exceptions\AppException;
+use courseProject\src\Exceptions\AppException;
 
 
 class UUID

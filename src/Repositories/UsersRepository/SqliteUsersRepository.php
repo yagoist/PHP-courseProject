@@ -6,7 +6,8 @@ use PDO;
 use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
-use src\Exceptions\AppException;
+use PDOStatement;
+use courseProject\src\Exceptions\AppException;
 
 class SqliteUsersRepository implements UsersRepositoryInterface
 {
@@ -61,6 +62,42 @@ class SqliteUsersRepository implements UsersRepositoryInterface
             $result['user_name'],
             $result['user_surname']
         );
+    }
 
+    /**
+     * @throws UserNotFoundException
+     */
+    public function getByUserLogin(string $userLogin): Users
+    {
+        $statement = $this->connection->prepare(
+            'SELECT * FROM users WHERE login = :login'
+        );
+        $statement->execute([
+            ':login' => $userLogin
+        ]);
+
+        return $this->getUser($statement, $userLogin);
+    }
+
+    /**
+     * @throws UserNotFoundException
+     */
+    private function getUser(PDOStatement $statement, string $userLogin): Users
+    {
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+        if ($result === false)
+        {
+            throw new UserNotFoundException(
+                "Cannot find user by login: $userLogin"
+            );
+        }
+
+        return new Users(
+            new UUID($result['uuid']),
+            $result['login'],
+            $result['user_name'],
+            $result['user_surname']
+        );
     }
 }
