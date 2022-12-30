@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Articles;
+namespace courseProject\src\Articles;
 
 
-use src\UUID;
+use courseProject\src\UUID;
 
 class Articles
 {
