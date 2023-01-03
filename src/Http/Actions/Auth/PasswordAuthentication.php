@@ -3,15 +3,14 @@
 namespace courseProject\src\Http\Actions\Auth;
 
 use courseProject\src\Exceptions\HttpException;
-use courseProject\src\Exceptions\InvalidArgumentException;
 use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\Http\Request;
 use courseProject\src\Repositories\UsersRepository\UsersRepositoryInterface;
 use courseProject\src\Users\Users;
-use courseProject\src\UUID;
 
-class JsonBodyUuidIdentification implements IdentificationInterface
+class PasswordAuthentication implements PasswordAuthenticationInterface
 {
+
     public function __construct(
         private UsersRepositoryInterface $usersRepository
     )
@@ -21,16 +20,27 @@ class JsonBodyUuidIdentification implements IdentificationInterface
     public function user(Request $request): Users
     {
         try {
-            $userUuid = new UUID($request->jsonBodyField('user_uuid'));
-        } catch (HttpException|InvalidArgumentException $e) {
+            $login = $request->jsonBodyField('login');
+        } catch (HttpException $e) {
             throw new AuthException($e->getMessage());
         }
 
         try {
-            return $this->usersRepository->get($userUuid);
+            $user = $this->usersRepository->getByUserLogin($login);
         } catch (UserNotFoundException $e) {
             throw new AuthException($e->getMessage());
         }
-    }
 
+        try {
+            $password = $request->jsonBodyField('password');
+        } catch (HttpException $e) {
+            throw new AuthException($e->getMessage());
+        }
+
+        if (!$user->checkPassword($password)) {
+            throw new AuthException('Wrong password');
+        }
+
+        return $user;
+    }
 }

@@ -31,7 +31,8 @@ class CreateUser implements ActionInterface
                 $newUserUuid,
                 $request->jsonBodyField('login'),
                 $request->jsonBodyField('user_name'),
-                $request->jsonBodyField('user_surname')
+                $request->jsonBodyField('user_surname'),
+                $request->jsonBodyField('password')
             );
         } catch (HttpException $e) {
             return new ErrorResponse($e->getMessage());

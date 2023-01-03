@@ -2,6 +2,7 @@
 
 use courseProject\src\Http\Actions\Articles\CreateArticle;
 use courseProject\src\Http\Actions\Articles\FindByUuid;
+use courseProject\src\Http\Actions\Auth\LogIn;
 use courseProject\src\Http\Actions\Comments\CreateComment;
 use courseProject\src\Http\Actions\Users\CreateUser;
 use courseProject\src\Http\Actions\Users\FindByUserLogin;
@@ -45,6 +46,7 @@ $routes = [
         '/posts/show' => FindByUuid::class
 ],
     'POST' => [
+        '/login' => LogIn::class,
         '/posts/create' => CreateArticle::class,
         '/users/create' => CreateUser::class,
         '/comments/create' => CreateComment::class
@@ -63,9 +65,11 @@ $actionClassName = $routes[$method][$path];
 try {
     $action = $container->get($actionClassName);
     $response = $action->handle($request);
-    $response->send();
+
 } catch (Exception $e) {
     $logger->error($e->getMessage(), ['exception' => $e])
     (new ErrorResponse())->send();
 }
+
+$response->send();
 

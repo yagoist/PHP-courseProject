@@ -8,7 +8,7 @@ use courseProject\src\Http\Request;
 use courseProject\src\Repositories\UsersRepository\UsersRepositoryInterface;
 use courseProject\src\Users\Users;
 
-class JsonBodyLoginIdentification implements IdentificationInterface
+class JsonBodyLoginAuthentification implements AuthentificationInterface
 {
     public function __construct(
         private UsersRepositoryInterface $usersRepository

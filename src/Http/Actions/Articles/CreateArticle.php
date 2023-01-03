@@ -7,7 +7,9 @@ use courseProject\src\Exceptions\HttpException;
 use courseProject\src\Exceptions\InvalidArgumentException;
 use courseProject\src\Exceptions\UserNotFoundException;
 use courseProject\src\Http\Actions\ActionInterface;
-use courseProject\src\Http\Actions\Auth\IdentificationInterface;
+use courseProject\src\Http\Actions\Auth\AuthentificationInterface;
+use courseProject\src\Http\Actions\Auth\AuthException;
+use courseProject\src\Http\Actions\Auth\TokenAuthenticationInterface;
 use courseProject\src\Http\ErrorResponse;
 use courseProject\src\Http\Request;
 use courseProject\src\Http\Response;
@@ -21,7 +23,7 @@ class CreateArticle implements ActionInterface
 {
     public function __construct(
         private ArticlesRepositoryInterface $articlesRepository,
-        private IdentificationInterface $identification,
+        private TokenAuthenticationInterface   $authentification,
         private LoggerInterface $logger
     )
     {
@@ -29,7 +31,13 @@ class CreateArticle implements ActionInterface
 
     public function handle(Request $request): Response
     {
-        $author = $this->identification->user($request);
+
+        try {
+            $author = $this->authentification->user($request);
+        } catch (AuthException $e) {
+            return new ErrorResponse($e->getMessage());
+        }
+
 
         $newArticleUuid = UUID::random();
 

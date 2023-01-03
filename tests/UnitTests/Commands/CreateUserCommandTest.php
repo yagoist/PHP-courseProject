@@ -51,7 +51,7 @@ class CreateUserCommandTest extends TestCase
 
         $command = new CreateUserCommand($usersRepository, new DummyLogger());
         $this->expectException(ArgumentException::class);
-        $this->expectExceptionMessage('No such argument: user_name');
+        $this->expectExceptionMessage('No such argument: login');
 
         $command->handle(new Arguments(['login' => 'batman']));
     }
@@ -92,7 +92,7 @@ class CreateUserCommandTest extends TestCase
     {
         $command = new CreateUserCommand($this->makeUsersRepository(), new DummyLogger());
         $this->expectException(ArgumentException::class);
-        $this->expectExceptionMessage('No such argument: user_name');
+        $this->expectExceptionMessage('No such argument: login');
 
         $command->handle(new Arguments(['login' => 'batman']));
     }
@@ -128,9 +128,24 @@ class CreateUserCommandTest extends TestCase
         $command->handle(new Arguments([
             'login' => 'batman',
             'user_name' => 'simon',
-            'user_surname' => 'gvozdev'
+            'user_surname' => 'gvozdev',
+            'password' => 'some_password'
         ]));
 
         $this->assertTrue($usersRepository->wasCalled());
+    }
+
+    public function testItRequiresPassword(): void
+    {
+        $command = new CreateUserCommand(
+            $this->makeUsersRepository(),
+            new DummyLogger()
+        );
+        $this->expectException(ArgumentException::class);
+        $this->expectExceptionMessage('No such argument: password');
+
+        $command->handle(new Arguments([
+            'login' => 'Ivan'
+        ]));
     }
 }

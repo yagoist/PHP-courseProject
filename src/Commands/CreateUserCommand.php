@@ -27,26 +27,23 @@ class CreateUserCommand
     public function handle(Arguments $arguments): void
     {
 //        $input = $this->parseRawInput($rawInput);
-        $this->logger->info("Create user comand started");
-        $userLogin = $arguments->get('login');
+        $this->logger->info("Create user command started");
 
-        if ($this->userExist($userLogin))
+        if ($this->userExist($arguments->get('login')))
         {
-            $this->logger->warning("User already exist: $userLogin");
+            $this->logger->warning("User already exist: {$arguments->get('login')}");
             return;
         }
 
-        $uuid = UUID::random();
-
-        $this->usersRepository->save(
-            new Users(
-                $uuid,
-                $userLogin,
-                $arguments->get('user_name'),
-                $arguments->get('user_surname')
-            )
+        $user = Users::createFrom(
+            $arguments->get('login'),
+            $arguments->get('user_name'),
+            $arguments->get('user_surname'),
+            $arguments->get('password')
         );
-        $this->logger->info("User created: $uuid");
+
+        $this->usersRepository->save($user);
+        $this->logger->info("User created:. {$user->getUuid()}");
     }
 
 //    /**

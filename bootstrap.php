@@ -1,10 +1,16 @@
 <?php
 
 use courseProject\src\Container\DIContainer;
-use courseProject\src\Http\Actions\Auth\IdentificationInterface;
-use courseProject\src\Http\Actions\Auth\JsonBodyUuidIdentification;
+use courseProject\src\Http\Actions\Auth\AuthentificationInterface;
+use courseProject\src\Http\Actions\Auth\BearerTokenAuthentication;
+use courseProject\src\Http\Actions\Auth\JsonBodyUuidAuthentification;
+use courseProject\src\Http\Actions\Auth\PasswordAuthentication;
+use courseProject\src\Http\Actions\Auth\PasswordAuthenticationInterface;
+use courseProject\src\Http\Actions\Auth\TokenAuthenticationInterface;
 use courseProject\src\Repositories\SqliteArticlesRepository\ArticlesRepositoryInterface;
 use courseProject\src\Repositories\SqliteArticlesRepository\SqliteArticlesRepository;
+use courseProject\src\Repositories\SqliteAuthTokensRepository\AuthTokensRepositoryInterface;
+use courseProject\src\Repositories\SqliteAuthTokensRepository\SqliteAuthTokensRepository;
 use courseProject\src\Repositories\UsersRepository\SqliteUsersRepository;
 use courseProject\src\Repositories\UsersRepository\UsersRepositoryInterface;
 use Dotenv\Dotenv;
@@ -24,19 +30,39 @@ $container->bind(
 );
 
 $container->bind(
+  TokenAuthenticationInterface::class,
+  BearerTokenAuthentication::class
+);
+
+$container->bind(
+    PasswordAuthenticationInterface::class,
+    PasswordAuthentication::class
+);
+
+$container->bind(
+    AuthTokensRepositoryInterface::class,
+    SqliteAuthTokensRepository::class
+);
+
+$container->bind(
     ArticlesRepositoryInterface::class,
     SqliteArticlesRepository::class
 );
 
 $container->bind(
-    IdentificationInterface::class,
-    JsonBodyUuidIdentification::class
+    AuthentificationInterface::class,
+    JsonBodyUuidAuthentification::class
 );
 
 $container->bind(
     UsersRepositoryInterface::class,
     SqliteUsersRepository::class
 );
+
+//$container->bind(
+//    AuthentificationInterface::class,
+//    PasswordAuthentication::class
+//);
 
 
 $logger = (new Logger('project'));

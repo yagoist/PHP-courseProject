@@ -1,3 +1,549 @@
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 44
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+  "password": "12345"
+}
+
+<> 2023-01-01T220809.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+  "password": "1234"
+}
+
+<> 2023-01-01T220803.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+  "password": "1234"
+}
+
+<> 2023-01-01T220506.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 44
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+  "password": "12345"
+}
+
+<> 2023-01-01T220447.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "name1",
+  "password": "12345"
+}
+
+<> 2023-01-01T220403.200.html
+
+###
+
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+Content-Length: 97
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "name1",
+  "user_name": "kolya",
+  "user_surname": "vidalishew",
+"password": "12345"
+}
+
+<> 2023-01-01T220205.200.html
+
+###
+
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "name1",
+  "user_name": "kolya",
+  "user_surname": "vidalishew",
+"password": "12345"
+}
+
+###
+
+POST http://127.0.0.1:8000/users/create
+Content-Type: application/json
+Content-Length: 97
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "name1",
+  "user_name": "kolya",
+  "user_surname": "vidalishew",
+"password": "12345"
+}
+
+###
+
+POST http://127.0.0.1:8000/user/create
+Content-Type: application/json
+Content-Length: 97
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "name1",
+  "user_name": "kolya",
+  "user_surname": "vidalishew",
+"password": "12345"
+}
+
+<> 2023-01-01T215818.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 42
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "12345"
+}
+
+<> 2023-01-01T215622.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+"password": "1234"
+}
+
+<> 2023-01-01T215612.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 42
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+"password": "12345"
+}
+
+<> 2023-01-01T215551.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+Content-Length: 41
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user3",
+"password": "12345"
+}
+
+<> 2023-01-01T215515.200.html
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Length: 42
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user3",
+"password": "12345",
+}
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Length: 42
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user3",
+"password": "12345",
+}
+
+###
+
+POST http://127.0.0.1:8000/login
+Content-Length: 42
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user3",
+"password": "12345",
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 81
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login2",
+"password": "12345",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T202253.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 81
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "12345",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T202248.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "12345",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T202140.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "12345",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T202025.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Type: application/json
+Content-Length: 81
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "12345",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200650.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Type: application/json
+Content-Length: 79
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "login1",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200627.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Type: application/json
+Content-Length: 80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 80
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 80
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 80
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 80
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 80
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "user123",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 79
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "batman",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200323.200.html
+
+###
+
+POST http://127.0.0.1:8000/posts/create
+Content-Length: 79
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "watman",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200310.200.html
+
+###
+
+POST http://127.0.0.1:8000/post/create
+Content-Length: 79
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "watman",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200245.200.html
+
+###
+
+POST http://127.0.0.1:8000/post/create
+Content-Length: 79
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"login": "watman",
+"password": "abc",
+"text": "some text",
+"title": "title"
+}
+
+<> 2022-12-30T200114.200.html
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://127.0.0.1:8000/users/show?login=ivan
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
 GET http://127.0.0.1:8000/users/show?login=ivan
 Content-Type: application/json
 Connection: Keep-Alive
@@ -190,374 +736,6 @@ User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2022-12-26T204030.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203936.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203901.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203731.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203714.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203656.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T203637.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T203617.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T203309.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/create
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T203218.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T203000.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T202609.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T202457.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "ivan"
-}
-
-<> 2022-12-26T201956.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Type: application/json
-Content-Length: 19
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-<> 2022-12-26T201940.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Length: 19
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-<> 2022-12-26T201812.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Length: 19
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-<> 2022-12-26T192645.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Length: 19
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Length: 19
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-###
-
-GET http://127.0.0.1:8000/users/show
-Content-Length: 19
-Content-Type: */*; charset=UTF-8
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-"login": "Ivan"
-}
-
-###
-
-GET http://127.0.0.1:8000/users/show?l=
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T185249.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T185159.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T185046.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T184943.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T184756.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T184017.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T183924.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T183731.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=MegaIvan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T183150.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2022-12-26T183121.200.json
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://127.0.0.1:8000/users/show?login=ivan
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
 
 ###
 
