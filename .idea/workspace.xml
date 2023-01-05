@@ -6,52 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c19170-59b3-49ec-8295-b4a333a0a375" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f221ee8-83d8-46ce-b764-b8a4bc7ac12e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T183121.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T183150.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T183731.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T183924.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T184017.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T184756.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T184943.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T185046.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T185159.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T185249.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T192645.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T201812.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T201940.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T201956.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T202457.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T202609.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203000.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203218.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203309.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203617.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203637.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203656.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203714.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203731.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203901.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T203936.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/courseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/courseProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T204030.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-26T214815.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T213751.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T213810.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T214005.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T214052.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T214250.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-28T214356.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T183553.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T183959.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T184334.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T184414.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T184450.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T184647.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T184725.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-12-29T185805.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http.php" beforeDir="false" afterPath="$PROJECT_DIR$/http.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/cli.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/CreateUserCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Articles/CreateArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Articles/CreateArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Auth/IdentificationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Auth/AuthentificationInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Auth/JsonBodyLoginIdentification.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Auth/JsonBodyLoginAuthentification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Auth/JsonBodyUuidIdentification.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Auth/JsonBodyUuidAuthentification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Actions/Users/CreateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Actions/Users/CreateUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Response.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/DummyUsersRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/UsersRepository/SqliteUsersRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Users/Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Actions/FindByUserLoginActionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Commands/CreateUserCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/UnitTests/Repository/SqliteUsersRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/ArticlesRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/SqliteArticlesRepository/SqliteArticlesRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +105,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -138,28 +123,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "last_opened_file_path": "/home/yaubuntuphp/php/courseProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yaubuntuphp/php/courseProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -265,6 +250,8 @@
       <workItem from="1672323540285" duration="8733000" />
       <workItem from="1672406989513" duration="10533000" />
       <workItem from="1672593102960" duration="8470000" />
+      <workItem from="1672761594336" duration="3177000" />
+      <workItem from="1672917100688" duration="8052000" />
     </task>
     <servers />
   </component>

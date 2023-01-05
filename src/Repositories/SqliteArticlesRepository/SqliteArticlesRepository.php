@@ -8,6 +8,7 @@ use courseProject\src\Articles\Articles;
 use courseProject\src\Comments\Comments;
 use courseProject\src\Users\Users;
 use courseProject\src\UUID;
+use PDOException;
 use Psr\Log\LoggerInterface;
 
 class SqliteArticlesRepository implements ArticlesRepositoryInterface
@@ -66,5 +67,19 @@ class SqliteArticlesRepository implements ArticlesRepositoryInterface
         );
 
         $this->logger->warning("Post get from SQL: $uuid");
+    }
+
+    public function delete(UUID $uuid): void
+    {
+        try {
+            $statement = $this->connection->prepare(
+                'DELETE FROM articles WHERE uuid = ?'
+            );
+            $statement->execute([(string) $uuid]);
+        } catch (PDOException $e) {
+            throw new ArticlesRepositoryException(
+                $e->getMessage(), (int)$e->getCode(), $e
+            );
+        }
     }
 }
